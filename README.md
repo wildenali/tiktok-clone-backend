@@ -40,3 +40,10 @@ Tutorial reference from<br/>
 - Setup to GET request
 - Fill the request url with `http://localhost:9000/` and click `SEND`
 - Have a look the result in Body tab
+
+17. To check GET Data from data.js with Postman
+
+- Open postman
+- Setup to GET request
+- Fill the request url with `http://localhost:9000/v1/posts` and click `SEND`
+- Have a look the result in Body tab
