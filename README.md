@@ -34,3 +34,9 @@ Tutorial reference from<br/>
 13. Click `Create Cluster` button
 14. Install nodemon `$ npm i -g nodemon`
 15. Run the server file `$ nodemon server.js`
+16. To check GET Request with Postman
+
+- Open postman
+- Setup to GET request
+- Fill the request url with `http://localhost:9000/` and click `SEND`
+- Have a look the result in Body tab
