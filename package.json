@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/wildenali/tiktok-clone-backend/issues"
   },
-  "homepage": "https://github.com/wildenali/tiktok-clone-backend#readme"
+  "homepage": "https://github.com/wildenali/tiktok-clone-backend#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.10.5"
+  }
 }
