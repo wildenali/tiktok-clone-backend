@@ -5,3 +5,5 @@ const app = express();
 const port = 9000;
 
 app.get("/", (req, res) => res.status(200).send("Hellow coy"));
+
+app.listen(port, () => console.log(`Listening on localhost:${port}`));
