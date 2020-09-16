@@ -1,0 +1,23 @@
+{
+  "name": "tiktok-clone-backend",
+  "version": "1.0.0",
+  "description": "Epic Tiktok backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wildenali/tiktok-clone-backend.git"
+  },
+  "keywords": [
+    ""
+  ],
+  "author": "wilden",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wildenali/tiktok-clone-backend/issues"
+  },
+  "homepage": "https://github.com/wildenali/tiktok-clone-backend#readme"
+}
