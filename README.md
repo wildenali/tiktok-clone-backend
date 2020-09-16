@@ -29,3 +29,5 @@
 11. Choose `MongoDB 4.2, No Backup` in Additional Settings
 12. Choose `Cluster0` in Cluster Name
 13. Click `Create Cluster` button
+14. Install nodemon `$ npm i -g nodemon`
+15. Run the server file `$ nodemon server.js`
