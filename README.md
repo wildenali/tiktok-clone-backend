@@ -22,3 +22,10 @@
 4. Click `Project` > `+ New Project`
 5. Name Your Project `tictok-clone`
 6. In Add Member just Click `Create Project`
+7. On Cluster Area click `Build a Cluster` button
+8. Choose Shared Clusters and click `Create a Cluster` button
+9. Choose `AWS` for Cloud Provider and choose `N. Virgiana for Region`
+10. Choose `M0 Sandbox (Shared RAM, 512 MB Storage)` in Cluster Tier
+11. Choose `MongoDB 4.2, No Backup` in Additional Settings
+12. Choose `Cluster0` in Cluster Name
+13. Click `Create Cluster` button
