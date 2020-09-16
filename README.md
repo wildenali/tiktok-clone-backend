@@ -1,5 +1,8 @@
 # TIKTOK CLONE App BACKEND
 
+Tutorial reference from<br/>
+[https://www.youtube.com/watch?v=g8yGxDMyGiE&t=2767s](https://www.youtube.com/watch?v=g8yGxDMyGiE&t=2767s)
+
 ## FRONTEND
 
 - REACT
