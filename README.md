@@ -73,3 +73,26 @@ Tutorial reference from<br/>
 - Create constanta in server.js and paste the url
 - Change `<password>` with password has been generated
 - Change `<dbname>` with `tiktok-clone`
+
+21. POST request
+
+- Open postman
+- Setup to POST request
+- Fill the request url with `http://localhost:9000/v2/posts`
+- Click `Body` > `raw` > change form `Text` to `JSON(application/json`
+- Fill with
+
+```
+{
+	"url": "/Videos/contoh2.mp4",
+	"channel": "wildenali",
+	"description": "Wow Epic MERN TOKTOK Clone App",
+	"song": "Hey whatsup cool 3 2 1 clone the door",
+	"likes": "1200",
+	"messages": "120",
+	"shares": "12"
+}
+```
+
+- Click `Send` button
+- Have a look for result
