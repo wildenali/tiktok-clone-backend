@@ -108,3 +108,19 @@ Tutorial reference from<br/>
 - Setup to GET request
 - Fill the request url with `http://localhost:9000/v2/posts` and click `SEND`
 - Have a look the result in Body tab
+
+24. Hosting the Backend on Heroku
+
+- Open [https://www.heroku.com/](https://www.heroku.com/)
+- Sign Up or Login to Heroku
+- Click `Create new app` button
+- Give the App name with `tiktok-clone-backend-wilden`
+- Choose a region `United States`
+- Click `Create app` button
+- To download and install Heroku CLI, click `Heroku CLI` link [https://devcenter.heroku.com/articles/heroku-cli](https://devcenter.heroku.com/articles/heroku-cli)
+- Click `64-bit installer` button to download and install Heroku CLI
+- Install also with `$ npm install -g heroku`
+- To check Heroku CLI installed is `heroku --version` in terminal
+- Login to Heroku CLI `heroku login`, enter enter will show to Log In page
+- Click `Log In` button
+- Type `git init` in the terminal
