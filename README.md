@@ -101,3 +101,10 @@ Tutorial reference from<br/>
 
 - Click `COLLECTIONS` button
 - Have a look for the result
+
+23. To GET data from mongodb cloud
+
+- Open postman
+- Setup to GET request
+- Fill the request url with `http://localhost:9000/v2/posts` and click `SEND`
+- Have a look the result in Body tab

@@ -27,6 +27,17 @@ app.get("/", (req, res) => res.status(200).send("Hellow coy"));
 // GET post
 app.get("/v1/posts", (req, res) => res.status(200).send(Data));
 
+// GET data from mongodb cloud database
+app.get("/v2/posts", (req, res) => {
+  Videos.find((err, data) => {
+    if (err) {
+      res.status(500).send(err);
+    } else {
+      res.status(200).send(data);
+    }
+  });
+});
+
 // POST
 app.post("/v2/posts", (req, res) => {
   // POST request is to ADD DATA to the database
