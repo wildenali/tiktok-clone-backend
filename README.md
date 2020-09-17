@@ -124,3 +124,7 @@ Tutorial reference from<br/>
 - Login to Heroku CLI `heroku login`, enter enter will show to Log In page
 - Click `Log In` button
 - Type `git init` in the terminal
+- Type `heroku git:remote -a tiktok-clone-backend-wilden`
+- Type `git add .` on the terminal
+- Type `git commit -am "make it onbetter"` on the terminal
+- Type `git push heroku master` on the terminal
