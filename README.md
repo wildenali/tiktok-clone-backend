@@ -96,3 +96,8 @@ Tutorial reference from<br/>
 
 - Click `Send` button
 - Have a look for result
+
+22. Check the database in mongodb cloud after step 21
+
+- Click `COLLECTIONS` button
+- Have a look for the result
