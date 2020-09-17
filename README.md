@@ -48,7 +48,7 @@ Tutorial reference from<br/>
 - Fill the request url with `http://localhost:9000/v1/posts` and click `SEND`
 - Have a look the result in Body tab
 
-18. Setup Database in MongoDB
+18. Setup Database in MongoDB cloud
 
 - Click `Database Access button`
 - Click `Add New Database User`
