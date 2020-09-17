@@ -47,3 +47,12 @@ Tutorial reference from<br/>
 - Setup to GET request
 - Fill the request url with `http://localhost:9000/v1/posts` and click `SEND`
 - Have a look the result in Body tab
+
+18. Setup Database in MongoDB
+
+- Click `Database Access button`
+- Click `Add New Database User`
+- Choose `Password` on Authentication Method
+- Fill the user column with `admin` on Password Authentication
+- Click `Autogenerate Secure Password` button and Click `SHOW` to display the password that has been generated and click `COPY` button. for example the password has been generated `hUquWla4CkVH5***`
+- Click `Add User` button
