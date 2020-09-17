@@ -12,6 +12,12 @@ const port = 9000;
 const connection_url =
   "mongodb+srv://admin:lFAYiX3ykiGi6TDd@cluster0.fiukr.mongodb.net/tiktok-clone?retryWrites=true&w=majority";
 
+mongoose.connect(connection_url, {
+  userNewUrlParser: true,
+  useCreateIndex: true,
+  useUnifiedTopology: true,
+});
+
 // api endpoints
 // GET
 app.get("/", (req, res) => res.status(200).send("Hellow coy"));
