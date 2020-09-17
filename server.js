@@ -8,7 +8,9 @@ const port = 9000;
 
 // middlewares
 
-// DB Congig
+// DB Config
+const connection_url =
+  "mongodb+srv://admin:lFAYiX3ykiGi6TDd@cluster0.fiukr.mongodb.net/tiktok-clone?retryWrites=true&w=majority";
 
 // api endpoints
 // GET

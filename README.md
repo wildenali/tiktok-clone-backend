@@ -54,7 +54,7 @@ Tutorial reference from<br/>
 - Click `Add New Database User`
 - Choose `Password` on Authentication Method
 - Fill the user column with `admin` on Password Authentication
-- Click `Autogenerate Secure Password` button and Click `SHOW` to display the password that has been generated and click `COPY` button. for example the password has been generated `hUquWla4CkVH5***`
+- Click `Autogenerate Secure Password` button and Click `SHOW` to display the password that has been generated and click `COPY` button. for example the password has been generated `lFAYiX3ykiGi6TDd`
 - Click `Add User` button
 
 19. Setup Network Access in MongoDB Cloud
@@ -63,3 +63,13 @@ Tutorial reference from<br/>
 - Click `Add IP Address` button
 - Click `ALLOW ACCESS FROM ANYWHERE`
 - Click `Confirm`
+
+20. Setup Clusters, (after point 4,5,6,7,8,9,10,11,12,13)
+
+- Click `Clusters` button
+- Click `Connect` button
+- Click `Connect yout application` button
+- Click `Copy` button to copy the url for connecting our app to mongodb cloud. example `mongodb+srv://admin:<password>@cluster0.fiukr.mongodb.net/<dbname>?retryWrites=true&w=majority`
+- Create constanta in server.js and paste the url
+- Change `<password>` with password has been generated
+- Change `<dbname>` with `tiktok-clone`
