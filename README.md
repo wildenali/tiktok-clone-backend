@@ -128,3 +128,4 @@ Tutorial reference from<br/>
 - Type `git add .` on the terminal
 - Type `git commit -am "make it onbetter"` on the terminal
 - Type `git push heroku master` on the terminal
+- To know log on heroku git `heroku logs --tail`
