@@ -56,3 +56,10 @@ Tutorial reference from<br/>
 - Fill the user column with `admin` on Password Authentication
 - Click `Autogenerate Secure Password` button and Click `SHOW` to display the password that has been generated and click `COPY` button. for example the password has been generated `hUquWla4CkVH5***`
 - Click `Add User` button
+
+19. Setup Network Access in MongoDB Cloud
+
+- Click `Network Access` button
+- Click `Add IP Address` button
+- Click `ALLOW ACCESS FROM ANYWHERE`
+- Click `Confirm`
